@@ -1,0 +1,118 @@
+html {
+                font-size: 100%;
+                height: 100%;
+                margin-bottom: 1px; /* Always show a scrollbar to avoid jumping when the scrollbar appears  */
+                }
+
+body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #555;
+                background: #f0f0f0 url('../images/bg-body.gif') top left repeat-y;
+                font-size: 12px;
+                }
+
+/********************************      Sidebar      ********************************/
+
+#sidebar {
+                background: url('../images/bg-sidebar.gif') top left no-repeat;
+                width: 230px;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                color: #888;
+                font-size: 11px;
+                }
+
+#sidebar #sidebar-wrapper {
+                margin: 0 0 0 9px;
+                }
+
+#sidebar a,
+#sidebar a:active {
+                color:#ccc;
+                }
+
+#sidebar a:hover {
+                color:#fff;
+                }
+
+#sidebar #sidebar-title {
+                margin: 40px 0 40px 15px;
+                }
+
+#sidebar #logo {
+                margin: 40px 0 40px 0;
+                }
+
+#sidebar #profile-links {
+                padding: 0 15px 20px 15px;
+                text-align: right;
+                line-height: 1.5em;
+                }
+
+/************ Sidebar Accordion Menu ************/
+
+#sidebar #main-nav {
+                width: 206px;
+                padding: 0;
+                margin: 0 0 0 15px;
+                font-family: Helvetica, Arial, sans-serif;
+                }
+
+#sidebar #main-nav li {
+                list-style: none;
+                padding-bottom: 10px;
+                text-align: right;
+                }
+
+#sidebar #main-nav li a.nav-top-item {
+                background: transparent url('../images/bg-menu-item-red.png') right center no-repeat; /* Background image for default color scheme - green */
+                padding: 10px 15px;
+                color: #fff;
+                font-size: 14px;
+                cursor: pointer;
+                display: block;
+                text-decoration: none;
+                }
+
+#sidebar #main-nav li a.current {
+                background-image: url('../images/bg-menu-item-current.gif') !important;
+                color: #333;
+                font-weight: bold;
+                }
+                
+#sidebar #main-nav li a.current:hover {
+                color: #333;
+                }
+
+#sidebar #main-nav ul {
+                padding: 0;
+                font-size: 12px;
+                margin: 0;
+                }
+
+#sidebar #main-nav ul li {
+                list-style: none;
+                margin: 0;
+                text-align: right;
+				padding: 0;
+                }
+
+#sidebar #main-nav ul li a {
+                padding: 8px 15px;
+                display: block;
+                color: #aaa;
+                font-size: 13px;
+                line-height: 1.2em;
+                }
+
+#sidebar #main-nav ul li a:hover,
+#sidebar #main-nav ul li a.current,
+#sidebar #main-nav ul li a.current:hover {
+                color: #fff;
+                }
+
+#sidebar #main-nav ul li a.current {
+                background: transparent url('../images/menu-current-arrow.gif') right center no-repeat !important;
+                }
